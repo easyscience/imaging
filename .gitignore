@@ -1,0 +1,46 @@
+# Python
+__pycache__/
+.venv/
+.coverage
+.pyc
+
+# Pixi
+.pixi/
+
+# PyInstaller
+dist/
+build/
+*.spec
+
+# MkDocs
+docs/site/
+
+# Jupyter Notebooks
+.ipynb_checkpoints
+
+# Node
+node_modules/
+
+# QtCreator
+*.autosave
+*.qmlproject.user
+*.qmlproject.user.*
+*.pyproject.user
+*.pyproject.user.*
+CMakeLists.txt.user*
+
+# PyCharm
+.idea/
+
+# VS Code
+.vscode/
+
+# macOS
+.DS_Store
+*.app
+*.dmg
+
+# Misc
+.cache/
+*.log
+*.zip

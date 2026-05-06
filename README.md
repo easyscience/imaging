@@ -1,21 +1,34 @@
-# EasyImaging
-Launching point for the EasyImaging family of repositories
+<p>
+  <picture>
+    <!-- light mode logo -->
+    <source media='(prefers-color-scheme: light)' srcset='https://raw.githubusercontent.com/easyscience/assets-branding/refs/heads/master/easyimaging/logos/light.svg'>
+    <!-- dark mode logo -->
+    <source media='(prefers-color-scheme: dark)' srcset='https://raw.githubusercontent.com/easyscience/assets-branding/refs/heads/master/easyimaging/logos/dark.svg'>
+    <!-- default logo == light mode logo -->
+    <img src='https://raw.githubusercontent.com/easyscience/assets-branding/refs/heads/master/easyimaging/logos/light.svg' alt='EasyImaging'>
+  </picture>
+</p>
 
-This repository is just a document with links to other repositories, which constitute the building blocks of the [EasyImaging](https://easyimaging.org) project, part of the larger [Easy Science](https://easyscience.software) framework.
-This ecosystem is divided into source code repositories, documentation repositories, and dependent project repositories to help both developers and end-users interact with our tools.
+**EasyImaging** is a software for performing Bragg-edge calculations based on a crystalliographic model and refining its parameters against experimental data.
 
-## Source code
+<!-- HOME REPOSITORY SECTION -->
 
-[imaging-app](https://github.com/EasyScience/imaging-app) - This is the main application repository containing all the finalized, production-ready code.   
-[imaging-lib](https://github.com/EasyScience/imaging-lib) - This repository contains the core library accessible through the Jupyter Notebook/Python.  
+This repository serves as the central hub for the **EasyImaging** family.
 
-## Documentation
+**EasyImaging** is developed as:
 
-[EasyImagingWww](https://github.com/easyScience/EasyImagingWww) - This is the documentation and content for the EasyImaging website.  
- 
 
-## Main dependencies
+- 📦 Python library - repository [`imaging-lib`](https://github.com/easyscience/imaging-lib)
 
-[EasyApp](https://github.com/easyScience/easyApp) - Application skeleton for the EasyScience framework, written in QML.
-[EasyScience](https://github.com/EasyScience/EasyScience) - Core library with fitting, minimizer, constraints, etc.
+
+
+- 🖥 Desktop application - repository [`imaging-app`](https://github.com/easyscience/imaging-app)
+
+
+### Useful Links:
+
+- 💡[Discussions](https://github.com/easyscience/imaging) - the main
+  discussion forum for the whole EasyImaging project.
+
+<!-- NON-HOME REPOSITORY SECTION -->
 
